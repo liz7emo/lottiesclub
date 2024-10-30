@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>lottie's club</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="header"></header>
+        <main class="box">
+            <div class="content">
+                <div class="container">
+                    <h1 class="title">COMING SOON</h1>
+                    <div class="time">
+                        <span>Dias</span>
+                        <span>Horas</span>
+                        <span>Minutos</span>
+                        <span>Segundos</span>
+                    </div>
+                    <div id="timer"></div>
+                    <p class="text">Inscreva-se para saber mais sobre o laçamento</p>
+                    <button id="button">Inscreva-se</button>
+                </div>
+                <div class="figure">
+                </div>
+            </div>
+
+            <!-- The Modal -->
+            <div id="modal" class="open-modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-container">
+                        <div class="form-header">
+                            <h1>Cadastar</h1>
+                        </div>
+                        <form class="form" action="/">
+                            <div class="form-content">
+                                <label for="name">Nome:</label>
+                                <input id="name" type="text" placeholder="Didite seu nome..." maxlength="255" required>
+                                <label for="email">E-mail:</label>
+                                <input id="email" type="email" placeholder="Digite seu e-mail..." maxlength="255"
+                                    minlength="7" required>
+                                <label for="contate">Contato:</label>
+                                <input id="contate" type="tel" placeholder="Didite seu número..." maxlength="15"
+                                    minlength="13" value="" required>
+                                <button type="submit" id="bnt" class="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
